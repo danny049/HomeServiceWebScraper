@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "qthQp6Ck+sFucsaY1t+bOgPBWay48NCWa309IawamtYIabrzqZYD5N2DpjG0QMHchDoo9P2+2DQroNcTkqCfDw==",
+  "success": true,
+  "projectFilePath": "/Users/danialali/Google Drive/Programming/Projects/webscraper/webscraper.csproj",
+  "expectedPackageFiles": [
+    "/Users/danialali/.nuget/packages/htmlagilitypack/1.11.43/htmlagilitypack.1.11.43.nupkg.sha512"
+  ],
+  "logs": []
+}

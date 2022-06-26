@@ -1,0 +1,17 @@
+/Users/danialali/Google Drive/Programming/Projects/webscraper/bin/Debug/net6.0/webscraper
+/Users/danialali/Google Drive/Programming/Projects/webscraper/bin/Debug/net6.0/webscraper.deps.json
+/Users/danialali/Google Drive/Programming/Projects/webscraper/bin/Debug/net6.0/webscraper.runtimeconfig.json
+/Users/danialali/Google Drive/Programming/Projects/webscraper/bin/Debug/net6.0/webscraper.dll
+/Users/danialali/Google Drive/Programming/Projects/webscraper/bin/Debug/net6.0/webscraper.pdb
+/Users/danialali/Google Drive/Programming/Projects/webscraper/bin/Debug/net6.0/HtmlAgilityPack.dll
+/Users/danialali/Google Drive/Programming/Projects/webscraper/obj/Debug/net6.0/webscraper.csproj.AssemblyReference.cache
+/Users/danialali/Google Drive/Programming/Projects/webscraper/obj/Debug/net6.0/webscraper.GeneratedMSBuildEditorConfig.editorconfig
+/Users/danialali/Google Drive/Programming/Projects/webscraper/obj/Debug/net6.0/webscraper.AssemblyInfoInputs.cache
+/Users/danialali/Google Drive/Programming/Projects/webscraper/obj/Debug/net6.0/webscraper.AssemblyInfo.cs
+/Users/danialali/Google Drive/Programming/Projects/webscraper/obj/Debug/net6.0/webscraper.csproj.CoreCompileInputs.cache
+/Users/danialali/Google Drive/Programming/Projects/webscraper/obj/Debug/net6.0/webscraper.csproj.CopyComplete
+/Users/danialali/Google Drive/Programming/Projects/webscraper/obj/Debug/net6.0/webscraper.dll
+/Users/danialali/Google Drive/Programming/Projects/webscraper/obj/Debug/net6.0/refint/webscraper.dll
+/Users/danialali/Google Drive/Programming/Projects/webscraper/obj/Debug/net6.0/webscraper.pdb
+/Users/danialali/Google Drive/Programming/Projects/webscraper/obj/Debug/net6.0/webscraper.genruntimeconfig.cache
+/Users/danialali/Google Drive/Programming/Projects/webscraper/obj/Debug/net6.0/ref/webscraper.dll
