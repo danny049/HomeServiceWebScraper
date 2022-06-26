@@ -1,5 +1,4 @@
-﻿using HtmlAgilityPack;
-class Program
+﻿class Program
 {
     static void Main(string[] args)
     {
@@ -13,6 +12,10 @@ class Program
 
         GoogleScraper newSearch = new GoogleScraper();
         var results = newSearch.ScrapeSerp(userQuery, userNPages);
+        if (results == null)
+        {
+            Console.WriteLine("Your request wasn't processed!");
+        }
 
         //Here we convert List<T> to a string Array - can turn this into a function
         List<string> listedResults = new List<string>();
@@ -23,8 +26,12 @@ class Program
         }
         
         String[] resultsArray = listedResults.ToArray();
-
-        GetInfo newRequest = new GetInfo();
+        foreach (var item in resultsArray)
+        {
+            Console.WriteLine(item.ToString());
+        }
+    
+       GetInfo newRequest = new GetInfo();
         newRequest.getInfo(resultsArray);
 
     }
