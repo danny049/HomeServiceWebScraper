@@ -1,4 +1,4 @@
-﻿class Program
+class Program
 {
     static void Main(string[] args)
     {
@@ -9,9 +9,10 @@
         //The number we enter is currently positional to the i value in GoogleScraper
         Console.WriteLine("How many pages do you want (each page is 10 results)?");
         int userNPages = Convert.ToInt32(Console.ReadLine());
+        int nPages = userNPages + 2;
 
         GoogleScraper newSearch = new GoogleScraper();
-        var results = newSearch.ScrapeSerp(userQuery, userNPages);
+        var results = newSearch.ScrapeSerp(userQuery, nPages);
         if (results == null)
         {
             Console.WriteLine("Your request wasn't processed!");
@@ -37,3 +38,4 @@
     }
 
 }
+
