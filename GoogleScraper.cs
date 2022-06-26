@@ -7,7 +7,7 @@ class GoogleScraper
         var serpResults = new List<SerpResult>();
         int i = 0;
         //The i value dictates which page we start scraping from
-        for(i = 7; i <= nPages; i++)
+        for(i = 2; i <= nPages; i++)
         {
             var url = "https://www.google.com/search?q=" + query + "&num=10&start=" + ((i - 1) * 10).ToString();
             HtmlWeb web = new HtmlWeb();
