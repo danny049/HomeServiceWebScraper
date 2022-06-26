@@ -12,9 +12,21 @@ class GetInfo
         {
             WebClient myWebClient = new WebClient();
             Console.WriteLine("Downloading " + remoteUri);
-            byte[] myDataBuffer = myWebClient.DownloadData(remoteUri);
-            string download = Encoding.ASCII.GetString(myDataBuffer);
-            Console.WriteLine("Download successful.");
+            string download = "";
+            try
+            {
+                byte[] myDataBuffer = myWebClient.DownloadData(remoteUri);
+                download = Encoding.ASCII.GetString(myDataBuffer);
+                Console.WriteLine("Download successful.");
+            }
+            catch (WebException ex)
+            {
+                if (ex.Status == WebExceptionStatus.ProtocolError)
+                {
+                    Console.WriteLine("This site is not available");
+                    continue;
+                }
+            }
             
             String [] Emails = GetEmailsFromWebContent(download);
             foreach(string Email in Emails)
@@ -84,7 +96,5 @@ class GetInfo
         return addressResults;
 
     }
-
-
-
 }
+
