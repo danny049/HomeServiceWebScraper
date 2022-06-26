@@ -1,4 +1,3 @@
-// This page was helped a lot by https://www.youtube.com/watch?v=Rt8srJBPim4
 using HtmlAgilityPack;
 
 class GoogleScraper
